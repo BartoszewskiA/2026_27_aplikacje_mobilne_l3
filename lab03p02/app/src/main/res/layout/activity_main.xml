@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\?\n "
+        android:textSize="70sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/editText_liczba"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textView_wynik"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40sp"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:hint="\?"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btn_sprawdz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_liczba"
+        android:layout_marginTop="40sp"
+        android:text="Sprawdź"
+        android:textSize="40sp"
+        android:onClick="sprawdz"/>
+
+    <Button
+        android:id="@+id/btn_nowagra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nowa Gra"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="20dp"
+        android:onClick="nowa_gra"
+         />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
