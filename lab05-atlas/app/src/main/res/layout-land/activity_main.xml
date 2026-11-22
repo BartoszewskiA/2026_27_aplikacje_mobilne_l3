@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_v_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_v_75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85"/>
+
+    <TextView
+        android:id="@+id/textView_baner"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:text="@string/tytul"
+        android:textSize="@dimen/font_1"
+        android:gravity="center"
+        android:background="@color/tlo_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="@id/gl_v_50"
+         />
+    <ImageView
+        android:id="@+id/imageView_zdjecie"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="@id/gl_v_50"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/gl_h"
+        tools:src="@drawable/prawdziwek"
+        android:layout_marginTop="5dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_wst"
+        android:backgroundTint="@color/tlo_1"
+        app:cornerRadius="5dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="←"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/gl_v_50"
+        app:layout_constraintRight_toRightOf="@id/gl_v_75"
+        app:layout_constraintTop_toBottomOf="@id/gl_h"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_np"
+        android:backgroundTint="@color/tlo_1"
+        app:cornerRadius="5dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="→"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/gl_v_75"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gl_h"
+        />
+    <TextView
+        tools:text="Nazwa grzyba"
+        android:id="@+id/textView_tytul"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="@dimen/font_1"
+     app:layout_constraintTop_toBottomOf="@id/textView_baner"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/gl_v_50"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView_opis"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="@dimen/font_2"
+        app:layout_constraintTop_toBottomOf="@id/textView_tytul"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/gl_v_50"
+        tools:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

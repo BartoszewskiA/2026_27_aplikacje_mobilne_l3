@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Atalas Grzybów</string>
+    <string name="tytul">Mushroom atlas</string>
+    <string-array name="nazwy">
+        <item>Porcini</item>
+        <item>Yellow-cracked Bolete</item>
+        <item>Fly Agaric</item>
+        <item>Parasol Mushroom</item>
+    </string-array>
+
+    <string-array name="opisy">
+        <item>The King Bolete, commonly known in Poland as *prawdziwek*, is one of the most highly prized edible mushrooms in the country. It is distinguished by its thick, bulbous stem and a velvety brown cap with a pale rim. Its flesh is firm, white, and does not change color when cut. It boasts an exceptionally intense, pleasant mushroom aroma and a deep flavor. It grows most eagerly in coniferous and mixed forests, particularly under spruces and oaks.</item>
+        <item>The Suede Bolete is a tasty and popular edible mushroom found in both deciduous and coniferous forests. A characteristic feature of its matte, olive-brown cap is a suede-like texture that often cracks during dry spells. The tubes under the cap are bright yellow or olive and turn slightly blue when pressed. Its flesh is soft, pale, and has a mild, pleasant taste. Extra care is needed when foraging, as it easily becomes wormy and spoils quickly.</item>
+        <item>The Fly Agaric is a widely recognized, highly poisonous mushroom with an extremely distinctive appearance. Its bright red or orange cap is covered with white patches, which are the remnants of its universal veil. It appears abundantly from summer to autumn in coniferous and mixed forests, often under birch trees. Ingesting this mushroom causes severe digestive distress as well as symptoms of intoxication and hallucinations. Due to the toxins it contains, it poses a direct threat to health and life.
+</item>
+        <item>The Parasol Mushroom is a delicious edible mushroom, valued for its large, umbrella-like cap that can reach up to 30 cm in diameter. The cap\'s surface is light-colored and covered with darker, cracked scales, featuring a dark umbo in the very center. Its slender stem holds a characteristic movable ring that can easily slide up and down. It is most commonly found along forest edges, in clearings, and across meadows. The most popular way to prepare it is breading and frying the whole caps like a cutlet</item>
+    </string-array>
+</resources>

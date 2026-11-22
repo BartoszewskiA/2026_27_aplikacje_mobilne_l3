@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atalas Grzybów</string>
+    <string name="tytul">Atlas grzybów</string>
+
+    <string-array name="nazwy">
+        <item>*Borowik szlachetny</item>
+        <item>Podgrzybek zajączek</item>
+        <item>Muchomor czerwon</item>
+        <item>Czubajka kania</item>
+    </string-array>
+
+    <string-array name="opisy">
+        <item>Borowik szlachetny, nazywany potocznie prawdziwkiem, to jeden z najbardziej cenionych grzybów jadalnych w Polsce. Wyróżnia się grubym, pękatym trzonem oraz zamszowatym, brązowym kapeluszem z jasnym brzegiem. Jego miąższ jest twardy, biały i nie zmienia koloru po przekrojeniu. Posiada wyjątkowo intensywny, przyjemny grzybowy zapach oraz głęboki smak. Najchętniej rośnie w lasach iglastych i mieszanych, szczególnie pod świerkami i dębami.</item>
+        <item>Podgrzybek zajączek to smaczny i popularny grzyb jadalny spotykany w lasach liściastych i iglastych. Charakterystyczną cechą jego matowego, oliwkowobrązowego kapelusza jest powłoka przypominająca zamsz, która często pęka w czasie suszy. Rurki pod kapeluszem mają jaskrawożółtą lub oliwkową barwę i lekko sinieją pod naciskiem. Miąższ jest miękki, jasny i ma łagodny, przyjemny smak. Należy uważać przy grzybobraniu, ponieważ łatwo robaczywieje i szybko ulega zepsuciu.</item>
+        <item>Muchomor czerwony to powszechnie znany, silnie trujący grzyb o niezwykle charakterystycznym wyglądzie. Jaskrawoczerwony lub pomarańczowy kapelusz pokryty jest białymi łatkami, będącymi pozostałością po osłonie. Występuje bardzo licznie od lata do jesieni w lasach iglastych i mieszanych, często pod brzozami. Spożycie tego grzyba wywołuje poważne zaburzenia układu pokarmowego oraz objawy odurzenia i halucynacje. Ze względu na zawarte w nim toksyny stanowi bezpośrednie zagrożenie dla zdrowia i życia.</item>
+        <item>Czubajka kania to wyśmienity grzyb jadalny, ceniony ze względu na duży, parasolowaty kapelusz o średnicy dochodzącej do 30 cm. Powierzchnia kapelusza jest jasna i pokryta ciemniejszymi, popękanymi łuskami, z ciemnym garbkiem na samym środku. Na smukłym trzonie znajduje się charakterystyczny, ruchomy pierścień, który można łatwo przesuwać w górę i w dół. Najczęściej występuje na brzegach lasów, leśnych polanach oraz łąkach. Najpopularniejszym sposobem jej przygotowania jest smażenie całych kapeluszy w panierce na wzór kotleta.</item>
+    </string-array>
+</resources>

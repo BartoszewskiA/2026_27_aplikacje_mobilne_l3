@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zalogowano:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:textSize="27sp"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/btn_unlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyloguj się"
+        app:layout_constraintEnd_toEndOf="@+id/textView_info"
+        app:layout_constraintTop_toBottomOf="@+id/textView_info"
+        android:layout_marginTop="30dp"
+        android:visibility="visible"/>
+
+    <EditText
+        android:id="@+id/editText_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_unlog"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Podaj login"
+        android:inputType="textPersonName"
+        android:textSize="27sp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zaloguj się"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/editText_login"
+        app:layout_constraintTop_toBottomOf="@+id/editText_login" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
